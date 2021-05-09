@@ -1,0 +1,76 @@
+  * {
+                box-sizing: border-box;
+            }
+
+            body{
+                margin:15px;
+                font-family: Helvetica;
+                background-image: linear-gradient(45deg, gold,orange, tomato, maroon);
+            }
+              
+            .header {
+                background-color:gold;
+                padding: 10px;
+                text-align: center;
+            }
+              
+            .nav_menu {
+                overflow: hidden;
+                background-color: coral;
+            }
+            .nav_menu a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            .nav_menu a:hover {
+                background-color: white;
+                color: #FF7F50;
+            }
+              
+            .row{
+                display: block;
+                clear: both;
+                margin: 450px;
+                margin-top: 50px;
+                align-content: center;
+                background-color: gold;
+            }
+
+
+            
+            .row2{
+                display: flex;
+            }
+
+            .relative-parent {
+             float: left;
+             width: 75%;
+             height: 50%;
+             margin-top: 180px;
+             padding: 20px;
+             background-color: gold;
+         }
+
+            .columnA, .columnB, .columnC {
+                float: left;
+                width: 100%;
+                padding: 15px;
+                text-align:justify;
+            }
+            .footer {
+                position:fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: red;
+                color: white;
+                text-align: center;
+}
+
+            }
+
